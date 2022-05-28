@@ -1,9 +1,15 @@
 {
-  "name": "@entwurfhaus/vite-vanilla-ts-module",
+  "name": "vite-vanilla-ts-module",
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
-  "author": "Brian Ng",
+  "contributors": [
+    {
+      "name": "Brian Ng",
+      "email": "brianngchongeu@gmail.com",
+      "url": "https://github.com/brifiction"
+    }
+  ],
   "exports": {
     ".": {
       "import": "./dist/main.es.js",
