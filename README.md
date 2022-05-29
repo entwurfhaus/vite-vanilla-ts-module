@@ -1,6 +1,13 @@
 # vite-vanilla-ts-module
 
-This is a Vite `vanilla-ts` boilerplate, for developing `ts` supported modules for publishing onto `npm`.
+<p align="center">
+    <img alt="license" src="https://img.shields.io/github/license/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/@entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="release" src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square" />
+</p>
+
+This is a `vite` boilerplate project, created via `vanilla-ts` template. Primarily, for rapid `ts` supported modules for publishing onto `npm`.
 
 ![yarn build](2022-05-28_12-46-08.jpg "yarn build")
 
