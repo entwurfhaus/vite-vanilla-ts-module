@@ -1,4 +1,4 @@
-import { sum } from "./utils/sum";
+import { add, subtract, divide, multiply } from "./utils/math";
 import { hello } from "./utils/hello";
 
-export { sum, hello };
+export { add, subtract, divide, multiply, hello };

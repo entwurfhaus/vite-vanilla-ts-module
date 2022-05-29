@@ -15,6 +15,8 @@ This is a `vite` boilerplate project, created via `vanilla-ts` template. Primari
 
 ```
 yarn
+yarn prepare
+npx sort-package-json
 npx husky add .husky/pre-commit "npx sort-package-json"
 npx husky add .husky/pre-commit "yarn prettier"
 ```
