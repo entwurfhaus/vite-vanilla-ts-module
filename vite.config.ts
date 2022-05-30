@@ -35,7 +35,7 @@ export default defineConfig({
           exclude: ["**/__tests__"],
         }),
         visualizer({
-          title: "RollUp Visualizer: fiscal-year",
+          title: "visualizer - vite-vanilla-ts-module",
           template: "network",
         }),
       ],
