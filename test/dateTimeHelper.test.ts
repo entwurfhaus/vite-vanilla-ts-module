@@ -4,7 +4,10 @@ import { dateTimeHelper, IDateTimeHelper } from "../src/utils/dateTime";
 
 // as seen in https://codepen.io/brifiction/pen/dyJzPyb
 test("dateTimeHelper 2022-06-03T00:00:00", () => {
-  const result: IDateTimeHelper = dateTimeHelper("2022-06-03T00:00:00");
+  const result: IDateTimeHelper = dateTimeHelper(
+    "2022-06-03T00:00:00",
+    "Australia/Melbourne"
+  );
   const expected: IDateTimeHelper = {
     received: "2022-06-03T00:00:00.000+10:00",
     formatted: "03-06-2022",
@@ -15,7 +18,10 @@ test("dateTimeHelper 2022-06-03T00:00:00", () => {
 
 test("dateTimeHelper today", () => {
   const today = DateTime.now();
-  const result: IDateTimeHelper = dateTimeHelper(today.toString());
+  const result: IDateTimeHelper = dateTimeHelper(
+    today.toString(),
+    "Australia/Melbourne"
+  );
   const expected: IDateTimeHelper = {
     received: today.toString(),
     formatted: today.toFormat("dd-MM-yyyy"),
