@@ -17,7 +17,7 @@ test("dateTimeHelper 2022-06-03T00:00:00", () => {
 });
 
 test("dateTimeHelper today", () => {
-  const today = DateTime.now();
+  const today = DateTime.now().setZone("Australia/Melbourne");
   const result: IDateTimeHelper = dateTimeHelper(
     today.toString(),
     "Australia/Melbourne"
