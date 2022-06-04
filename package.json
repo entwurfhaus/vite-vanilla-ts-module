@@ -29,9 +29,12 @@
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "preview": "vite preview",
-    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "test:run": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "luxon": "^2.4.0"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.1",
@@ -46,8 +49,5 @@
     "typescript": "^4.7.2",
     "vite": "^2.9.9",
     "vitest": "^0.13.0"
-  },
-  "dependencies": {
-    "luxon": "^2.4.0"
   }
 }
