@@ -29,7 +29,8 @@
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test:watch": "vitest",
+    "test:run": "vitest run"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.1",
