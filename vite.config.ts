@@ -2,11 +2,23 @@ import typescript from "@rollup/plugin-typescript";
 import path from "path";
 import { typescriptPaths } from "rollup-plugin-typescript-paths";
 import { visualizer } from "rollup-plugin-visualizer";
+import progress from "vite-plugin-progress";
+import colors from "picocolors";
+
 import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [],
+  plugins: [
+    // https://github.com/jeddygong/vite-plugin-progress
+    progress({
+      format: `Building ${colors.green("[:bar]")} :percent :eta`,
+      total: 100,
+      width: 60,
+      // complete: "=",
+      // incomplete: "",
+    }),
+  ],
   resolve: {
     alias: [
       {

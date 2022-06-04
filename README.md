@@ -2,9 +2,13 @@
 
 <p align="center">
     <img alt="license" src="https://img.shields.io/github/license/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="release" src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square" />
+    <img alt="github-actions-develop-ci" src="https://img.shields.io/github/workflow/status/entwurfhaus/vite-vanilla-ts-module/vite-vanilla-ts-module%20CI?style=flat-square" />
+</p>
+
+<p align="center">
     <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/@entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
     <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
-    <img alt="release" src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square" />
 </p>
 
 This is a `vite` boilerplate project, created via `vanilla-ts` template. Primarily, for rapid `ts` supported modules for publishing onto `npm`.
