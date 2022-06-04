@@ -1,7 +1,9 @@
 import { assert, expect, test } from "vitest";
-import { add, subtract, multiply, divide } from "../src/utils/math";
+import { add, subtract, multiply, divide } from "../src/main";
 
-// Edit an assertion and save to see HMR in action
+/**
+ * Edit an assertion and save to see HMR in action
+ */
 
 test("add", () => {
   const result = add(100, 111);
