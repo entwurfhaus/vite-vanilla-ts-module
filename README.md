@@ -9,16 +9,16 @@
 
 This is a `vite` boilerplate project, created via `vanilla-ts` template. Primarily, for rapid `ts` supported modules for publishing onto `npm`.
 
-![yarn build](2022-05-28_12-46-08.jpg "yarn build")
+![yarn build](2022-06-04_12-01-14.jpg "yarn build")
 
 ## Getting Started
 
 ```
 yarn
 yarn prepare
-npx sort-package-json
-npx husky add .husky/pre-commit "npx sort-package-json"
+npx husky add .husky/pre-commit "yarn build"
 npx husky add .husky/pre-commit "yarn prettier"
+npx husky add .husky/pre-commit "git add stats.html"
 ```
 
 Lastly, your file `.husky/pre-commit` should look like below:
@@ -27,9 +27,28 @@ Lastly, your file `.husky/pre-commit` should look like below:
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx sort-package-json
+yarn build
 yarn prettier
+git add stats.html
 ```
+
+## Testing with Vitest
+
+Run `yarn test:run` or `yarn test:coverage` to produce code coverage report.
+
+![yarn test:run](2022-06-04_12-03-10.jpg "yarn test:run")
+
+The code coverage report will indicate, if all test cases are 100% covered, flawed logic and so on.
+
+## Running `vite`
+
+Run `yarn dev` to open `index.html` via `http://localhost:3000`.
+
+It contains some quick links, to the `stats.html` and coverage `index.html` files.
+
+![yarn dev](2022-06-04_12-06-34.jpg "yarn dev")
+
+## Publishing
 
 And when ready to publish to `npm`:
 
