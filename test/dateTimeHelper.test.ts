@@ -1,8 +1,12 @@
 import { assert, expect, test } from "vitest";
 import { DateTime } from "luxon";
-import { dateTimeHelper, IDateTimeHelper } from "../src/utils/dateTime";
+import { dateTimeHelper } from "../src/main";
+import { IDateTimeHelper } from "../src/utils/dateTime";
 
-// as seen in https://codepen.io/brifiction/pen/dyJzPyb
+/**
+ * as seen in https://codepen.io/brifiction/pen/dyJzPyb
+ */
+
 test("dateTimeHelper 2022-06-03T00:00:00", () => {
   const result: IDateTimeHelper = dateTimeHelper(
     "2022-06-03T00:00:00",
