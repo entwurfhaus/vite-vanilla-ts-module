@@ -8,27 +8,70 @@
   </head>
 
   <body>
-    <div class="container is-fluid">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-half">
-            <div class="notification is-white" style="margin: 0 auto">
-              <p>
-                Hello there! Thank you for using the `vite-vanilla-ts-module`
-                boilerplate.
-              </p>
-              <ul>
-                <li>
-                  <a href="stats.html">Build Stats</a>
-                </li>
-                <li>
-                  <a href="/coverage/index.html">Code Coverage</a>
-                </li>
-              </ul>
+    <div class="container">
+      <!-- START ARTICLE FEED -->
+      <section class="articles">
+        <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content has-text-centered">
+                  <p class="title article-title">vite-vanilla-ts-module</p>
+                  <a
+                    href="https://github.com/entwurfhaus/vite-vanilla-ts-module"
+                    target="_blank"
+                  >
+                    <div class="tags has-addons level-item">
+                      <span class="tag is-rounded is-info">@entwurfhaus</span>
+                      <span class="tag is-rounded is-black"
+                        >vite-vanilla-ts-module</span
+                      >
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="content article-body">
+                <p>
+                  These are quick links, to the generated files - from built
+                  operation, and generated test reports (such as code coverage):
+                </p>
+                <ul>
+                  <li>
+                    <a href="stats.html">Build Statistics</a>
+                  </li>
+                  <li>
+                    <a href="coverage/index.html">Code Coverage</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="content has-text-centered">
+            <p class="subtitle is-5">
+              Thank you for cloning the `vite-vanilla-ts-module` boilerplate.
+            </p>
+            <p>
+              <img
+                alt="release"
+                src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square"
+              />
+              <img
+                alt="github-actions-develop-ci"
+                src="https://img.shields.io/github/workflow/status/entwurfhaus/vite-vanilla-ts-module/vite-vanilla-ts-module%20CI?style=flat-square"
+              />
+              <img
+                alt="vulnerabilities"
+                src="https://img.shields.io/snyk/vulnerabilities/github/entwurfhaus/vite-vanilla-ts-module?style=flat-square"
+              />
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
