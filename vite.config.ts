@@ -27,8 +27,16 @@ export default defineConfig({
       },
     ],
   },
+  server: {
+    port: 3123,
+  },
+  // preview: {
+  //   port: 3124,
+  // },
   // https://vitejs.dev/guide/build.html#library-mode
   build: {
+    manifest: true,
+    minify: true,
     lib: {
       entry: path.resolve(__dirname, "src/main.ts"),
       fileName: "main",
