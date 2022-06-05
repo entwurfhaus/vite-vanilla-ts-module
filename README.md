@@ -13,7 +13,7 @@
 
 This is a `vite` boilerplate project, created via `vanilla-ts` template. Primarily, for rapid `ts` supported modules for publishing onto `npm`.
 
-![yarn build](docs/screenshots/2022-06-04_12-01-14.jpg "yarn build")
+![yarn build](_screenshots/2022-06-04_12-01-14.jpg "yarn build")
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ git add stats.html
 
 Run `yarn test:run` or `yarn test:coverage` to produce code coverage report.
 
-![yarn test:run](docs/screenshots/2022-06-04_12-03-10.jpg "yarn test:run")
+![yarn test:run](_screenshots/2022-06-04_12-03-10.jpg "yarn test:run")
 
 The code coverage report will indicate, if all test cases are 100% covered, flawed logic and so on.
 
@@ -50,7 +50,7 @@ Run `yarn dev` to open `index.html` via `http://localhost:3000`.
 
 It contains some quick links, to the `stats.html` and coverage `index.html` files.
 
-![yarn dev](docs/screenshots/2022-06-04_12-06-34.jpg "yarn dev")
+![yarn dev](_screenshots/2022-06-04_12-06-34.jpg "yarn dev")
 
 ## Publishing
 
