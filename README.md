@@ -22,7 +22,6 @@ yarn
 yarn prepare
 npx husky add .husky/pre-commit "yarn build"
 npx husky add .husky/pre-commit "yarn prettier"
-npx husky add .husky/pre-commit "git add stats.html"
 ```
 
 Lastly, your file `.husky/pre-commit` should look like below:
@@ -33,7 +32,6 @@ Lastly, your file `.husky/pre-commit` should look like below:
 
 yarn build
 yarn prettier
-git add stats.html
 ```
 
 ## Testing with Vitest
