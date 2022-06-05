@@ -1,6 +1,6 @@
 {
   "name": "vite-vanilla-ts-module",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "",
   "license": "MIT",
   "contributors": [
@@ -16,6 +16,15 @@
       "require": "./dist/main.cjs.js"
     }
   },
+  "keywords": [
+    "vite",
+    "vanilla-ts",
+    "template",
+    "boilerplate",
+    "node",
+    "module",
+    "library"
+  ],
   "main": "./dist/main.cjs.js",
   "module": "./dist/main.es.js",
   "typings": "./dist/main.d.ts",
