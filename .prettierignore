@@ -2,10 +2,7 @@
 build
 coverage
 
-# TypeDoc
-_docs
-_docs/modules.html
-
 # Others
 vite-env.d.ts
+_docs
 stats.html
