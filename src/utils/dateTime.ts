@@ -1,8 +1,18 @@
 import { DateTime } from "luxon";
 
 export interface IDateTimeHelper {
+  /**
+   * Show ISO format DateTime.
+   */
   received: string;
+  /**
+   * Show formatted date, such as '25-12-2022'.
+   */
   formatted: string;
+  /**
+   * Show human-readable string, such as 'two days ago' or 'today'.
+   * @default null
+   */
   relative: string | null;
 }
 
@@ -12,8 +22,9 @@ export interface IDateTimeHelper {
  *
  * Note: Only Australia/Melbourne
  *
- * @param dateFromISO
- * @returns IDateTimeHelper
+ * @param {string} dateFromISO
+ * @param {string} zone
+ * @returns {IDateTimeHelper} {received,formatted,relative}
  */
 export const dateTimeHelper = (
   dateFromISO: string,

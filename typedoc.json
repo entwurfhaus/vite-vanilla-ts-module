@@ -1,0 +1,5 @@
+{
+  "entryPoints": ["src/main.ts"],
+  "out": "_docs",
+  "includeVersion": true
+}
