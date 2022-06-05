@@ -1,7 +1,7 @@
 /**
  * Provide a name, to say hello to.
  *
- * @param name
+ * @param {string} name
  * @returns string
  */
 export const hello = (name: string) => {
