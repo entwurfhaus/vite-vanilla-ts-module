@@ -24,7 +24,7 @@ export interface IDateTimeHelper {
  *
  * @param {string} dateFromISO
  * @param {string} zone
- * @returns IDateTimeHelper
+ * @returns {IDateTimeHelper} {received,formatted,relative}
  */
 export const dateTimeHelper = (
   dateFromISO: string,

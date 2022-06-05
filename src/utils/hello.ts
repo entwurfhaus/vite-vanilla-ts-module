@@ -2,7 +2,7 @@
  * Provide a name, to say hello to.
  *
  * @param {string} name
- * @returns string
+ * @returns {string} Hello, Brian!
  */
 export const hello = (name: string) => {
   const hello = "Hello, ";

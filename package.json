@@ -23,10 +23,10 @@
     "dist"
   ],
   "scripts": {
-    "docs": "yarn typedoc --out _docs src/main.ts",
-    "build": "tsc && vite build",
-    "build:watch": "tsc && vite build --watch",
-    "dev": "vite",
+    "docs": "yarn typedoc",
+    "build": "tsc && vite build && typedoc",
+    "build:watch": "tsc && vite build --watch && typedoc",
+    "dev": "vite && typedoc",
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "preview": "vite preview",
