@@ -16,6 +16,15 @@
       "require": "./dist/main.cjs.js"
     }
   },
+  "keywords": [
+    "vite",
+    "vanilla-ts",
+    "template",
+    "boilerplate",
+    "node",
+    "module",
+    "library"
+  ],
   "main": "./dist/main.cjs.js",
   "module": "./dist/main.es.js",
   "typings": "./dist/main.d.ts",
