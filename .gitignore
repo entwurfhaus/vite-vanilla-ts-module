@@ -25,3 +25,7 @@ dist-ssr
 
 # Vitest
 coverage
+
+# Others
+_docs
+stats.html
