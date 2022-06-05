@@ -4,6 +4,7 @@
     <img alt="license" src="https://img.shields.io/github/license/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
     <img alt="release" src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square" />
     <img alt="github-actions-develop-ci" src="https://img.shields.io/github/workflow/status/entwurfhaus/vite-vanilla-ts-module/vite-vanilla-ts-module%20CI?style=flat-square" />
+    <img alt="documentation" src="https://img.shields.io/website?label=documentation&style=flat-square&up_message=learn%20more&url=http%3A%2F%2Fvite-vanilla-ts-module.entwurfhaus.com%2F">
 </p>
 
 <p align="center">
