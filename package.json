@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@microsoft/tsdoc": "^0.14.1",
-    "luxon": "^2.4.0",
+    "luxon": "^2.5.0",
     "picocolors": "^1.0.0"
   },
   "devDependencies": {
