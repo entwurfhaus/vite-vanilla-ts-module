@@ -3,7 +3,7 @@
 <p align="center">
     <img alt="license" src="https://img.shields.io/github/license/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
     <img alt="release" src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square" />
-    <img alt="github-actions-develop-ci" src="https://img.shields.io/github/workflow/status/entwurfhaus/vite-vanilla-ts-module/vite-vanilla-ts-module%20CI?style=flat-square" />
+<img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/entwurfhaus/vite-vanilla-ts-module/npm-ci" />
     <img alt="documentation" src="https://img.shields.io/website?label=documentation&style=flat-square&up_message=online&url=http%3A%2F%2Fvite-vanilla-ts-module.entwurfhaus.com%2F">
     <img alt="visits" src="https://hits.deltapapa.io/github/entwurfhaus/vite-vanilla-ts-module.svg" />
 </p>
@@ -13,7 +13,7 @@
     <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
 </p>
 
-This is a `vite` boilerplate project, created via `vanilla-ts` template. Primarily, for rapid `ts` supported modules for publishing onto `npm`.
+A starter template that began with Vite 3.x, prepared for writing `node` utility libraries in `typescript`. This starter is meant to provide rapid `node` package development and publishing onto `npm`.
 
 ![yarn build](_screenshots/2022-06-04_12-01-14.jpg "yarn build")
 
