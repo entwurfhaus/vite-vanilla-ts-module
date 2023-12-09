@@ -1,4 +1,4 @@
-# vite-vanilla-ts-template-extended
+# vite-vanilla-ts-module
 
 <p align="center">
     <img alt="license" src="https://img.shields.io/github/license/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
