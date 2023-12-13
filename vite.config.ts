@@ -1,14 +1,17 @@
 import path from "path";
-import { visualizer } from "rollup-plugin-visualizer";
 import progress from "vite-plugin-progress";
 import colors from "picocolors";
 import dts from "vite-plugin-dts";
 
-import { defineConfig } from "vite";
+import { defineConfig, type PluginOption } from "vite";
+import eslint from "vite-plugin-eslint";
+import { visualizer } from "rollup-plugin-visualizer";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    eslint(),
+    visualizer() as PluginOption,
     // https://github.com/jeddygong/vite-plugin-progress
     progress({
       format: `Building ${colors.green("[:bar]")} :percent :eta`,
@@ -35,15 +38,6 @@ export default defineConfig({
       entry: path.resolve(__dirname, "src/main.ts"),
       fileName: "main",
       formats: ["es", "cjs"],
-    },
-    rollupOptions: {
-      external: [],
-      plugins: [
-        visualizer({
-          title: "visualizer - vite-vanilla-ts-module",
-          template: "network",
-        }),
-      ],
     },
   },
 });
