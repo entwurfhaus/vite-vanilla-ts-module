@@ -10,13 +10,6 @@
       "url": "https://github.com/brifiction"
     }
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/main.es.js",
-      "require": "./dist/main.cjs.js",
-      "types": "./dist/main.d.ts"
-    }
-  },
   "keywords": [
     "vite",
     "vanilla-ts",
@@ -26,16 +19,17 @@
     "module",
     "library"
   ],
-  "main": "./dist/main.cjs.js",
-  "module": "./dist/main.es.js",
+  "type": "module",
+  "main": "./dist/main.cjs",
+  "module": "./dist/main.js",
   "typings": "./dist/main.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "docs": "yarn typedoc",
-    "build": "tsc && vite build && typedoc",
-    "build:watch": "tsc && vite build --watch && typedoc",
+    "build": "vite build && typedoc",
+    "build:watch": "vite build --watch && typedoc",
     "dev": "vite && typedoc",
     "prepare": "husky install",
     "prettier": "prettier --write .",
@@ -62,6 +56,7 @@
     "typedoc": "^0.25.4",
     "typescript": "^5.3.3",
     "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.6.4",
     "vite-plugin-progress": "^0.0.7",
     "vitest": "^1.0.4"
   }
