@@ -1,4 +1,4 @@
-# vite-vanilla-ts-module
+# vite-vanilla-ts-template-extended
 
 <p align="center">
     <img alt="license" src="https://img.shields.io/github/license/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
@@ -46,11 +46,17 @@ The code coverage report will indicate, if all test cases are 100% covered, flaw
 
 ## Running `vite`
 
-Run `yarn dev` to open `index.html` via `http://localhost:3000`.
+Run `yarn dev` to open `index.html` via `http://localhost:5174`.
 
 It contains some quick links, to the `stats.html` and coverage `index.html` files.
 
 ![yarn dev](_screenshots/2022-06-04_12-06-34.jpg "yarn dev")
+
+## Build your package
+
+Run `yarn build`, and check the `dist` folder for the final build output.
+
+> If there are issues with the package, check `package.json` (props `main`, `module`, `typings`, `files` and etc), `tsconfig.json` (such as `allowJs`) and dependency versions (especially `vite`) to narrow down the build or typings errors you're experiencing.
 
 ## Publishing
 
