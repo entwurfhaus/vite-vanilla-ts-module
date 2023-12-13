@@ -1,7 +1,7 @@
 {
   "name": "vite-vanilla-ts-module",
-  "version": "2.0.0",
-  "description": "",
+  "version": "2.0.1",
+  "description": "A starter vanilla-ts (extended) template that began with Vite 3.x, prepared for writing node utility libraries in typescript. This starter is meant to provide rapid node package development and publishing onto npm.",
   "license": "MIT",
   "contributors": [
     {
@@ -44,13 +44,11 @@
     "picocolors": "^1.0.0"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "^11.1.5",
     "@types/node": "^20.10.4",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitest/coverage-v8": "^1.0.4",
     "@vitest/ui": "^1.0.4",
-    "c8": "^8.0.1",
     "eslint": "^8.55.0",
     "husky": "^8.0.3",
     "prettier": "3.1.1",
