@@ -40,6 +40,7 @@
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "preview": "vite preview",
+    "test:ui": "vitest --ui --coverage",
     "test:coverage": "vitest run --coverage",
     "test:run": "vitest run",
     "test:watch": "vitest"
@@ -52,6 +53,7 @@
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/node": "^20.10.4",
     "@vitest/coverage-v8": "^1.0.4",
+    "@vitest/ui": "^1.0.4",
     "c8": "^8.0.1",
     "husky": "^8.0.3",
     "prettier": "3.1.1",
