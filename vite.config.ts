@@ -1,6 +1,5 @@
 import typescript from "@rollup/plugin-typescript";
 import path from "path";
-import { typescriptPaths } from "rollup-plugin-typescript-paths";
 import { visualizer } from "rollup-plugin-visualizer";
 import progress from "vite-plugin-progress";
 import colors from "picocolors";
@@ -46,9 +45,6 @@ export default defineConfig({
     rollupOptions: {
       external: [],
       plugins: [
-        typescriptPaths({
-          preserveExtensions: true,
-        }),
         typescript({
           sourceMap: false,
           declaration: true,
