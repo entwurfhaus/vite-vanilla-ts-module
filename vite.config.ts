@@ -1,8 +1,8 @@
-import typescript from "@rollup/plugin-typescript";
 import path from "path";
 import { visualizer } from "rollup-plugin-visualizer";
 import progress from "vite-plugin-progress";
 import colors from "picocolors";
+import dts from "vite-plugin-dts";
 
 import { defineConfig } from "vite";
 
@@ -17,6 +17,10 @@ export default defineConfig({
       // complete: "=",
       // incomplete: "",
     }),
+    dts({
+      entryRoot: "src",
+      tsconfigPath: path.join(__dirname, "tsconfig.json"),
+    }),
   ],
   resolve: {
     alias: [
@@ -26,17 +30,7 @@ export default defineConfig({
       },
     ],
   },
-  server: {
-    port: 3123,
-  },
-  // preview: {
-  //   port: 3124,
-  // },
-  // https://vitejs.dev/guide/build.html#library-mode
   build: {
-    manifest: true,
-    minify: true,
-    reportCompressedSize: true,
     lib: {
       entry: path.resolve(__dirname, "src/main.ts"),
       fileName: "main",
@@ -45,12 +39,6 @@ export default defineConfig({
     rollupOptions: {
       external: [],
       plugins: [
-        typescript({
-          sourceMap: false,
-          declaration: true,
-          outDir: "dist",
-          exclude: ["**/__tests__"],
-        }),
         visualizer({
           title: "visualizer - vite-vanilla-ts-module",
           template: "network",

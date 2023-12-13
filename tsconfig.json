@@ -3,10 +3,9 @@
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": ["ES2020", "DOM"],
     "skipLibCheck": true,
 
-    "types": ["node"],
     "allowJs": false,
 
     /* Node mode */
@@ -31,6 +30,5 @@
       "~/*": ["src/*"]
     }
   },
-  "include": ["./src"],
-  "exclude": ["node_modules"]
+  "include": ["./src"]
 }
