@@ -1,5 +1,5 @@
-import { assert, expect, test } from "vitest";
-import { add, subtract, multiply, divide } from "../src/main";
+import { expect, test } from "vitest";
+import { add, divide, multiply, subtract } from "../src/main";
 
 /**
  * Edit an assertion and save to see HMR in action

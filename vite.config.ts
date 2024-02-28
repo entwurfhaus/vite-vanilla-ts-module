@@ -1,11 +1,10 @@
 import path from "path";
-import progress from "vite-plugin-progress";
 import colors from "picocolors";
-import dts from "vite-plugin-dts";
-
-import { defineConfig, type PluginOption } from "vite";
-import eslint from "vite-plugin-eslint";
 import { visualizer } from "rollup-plugin-visualizer";
+import { type PluginOption, defineConfig } from "vite";
+import dts from "vite-plugin-dts";
+import eslint from "vite-plugin-eslint";
+import progress from "vite-plugin-progress";
 
 // https://vitejs.dev/config/
 export default defineConfig({
