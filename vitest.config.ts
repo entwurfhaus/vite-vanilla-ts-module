@@ -13,7 +13,12 @@ export default defineConfig({
   test: {
     coverage: {
       reporter: ["text", "json", "html"],
-      exclude: [...configDefaults.exclude, "_docs", "src/main.ts"],
+      exclude: [
+        ...configDefaults.exclude,
+        "_docs",
+        "src/main.ts",
+        "commitlint.config.js",
+      ],
     },
   },
 });
