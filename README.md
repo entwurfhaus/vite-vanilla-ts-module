@@ -18,23 +18,62 @@ A starter `vanilla-ts` (extended) template that began with Vite 3.x, prepared fo
 
 ![yarn build](_screenshots/2022-06-04_12-01-14.jpg "yarn build")
 
+## What is in this template?
+
+Below are notable dependencies bundled (and configured) in this library template:
+
+1. [husky](https://typicode.github.io/husky/get-started.html)
+1. [vitest](https://vitest.dev/)
+1. [vitest ui](https://vitest.dev/guide/ui.html)
+1. [vite](https://vitejs.dev/guide/)
+1. [vite-plugin-dts](https://github.com/qmhc/vite-plugin-dts)
+1. [vite-plugin-eslint](https://github.com/gxmari007/vite-plugin-eslint)
+1. [eslint](https://eslint.org/)
+1. [prettier](https://prettier.io/)
+
+### Optional dependencies
+
+And notable optional dependencies, great to use for improved DX etc:
+
+1. [commitlint](https://commitlint.js.org/guides/getting-started.html) - optional, remove if yourself / team does not require enforcing conventional commits.
+1. [vite-plugin-progress](https://github.com/jeddygong/vite-plugin-progress) - optional, remove if yourself / team does not require :sparkles: fancy :sparkles: progress bar in terminal.
+1. [@trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports) - optional, auto-sort your import order in each file, set your own "sort rules".
+
+### Goal of included dependencies
+
+Know that the above dependencies are (mostly) optional, and you may extend or remove them to your preference. The goal of introducing these dependencies as part of the template, is to:
+
+1. Easily build a custom `node` library, fast (with some style).
+1. Easily integrate the built custom `node` library, into any monorepo framework - primarily `turborepo` and `nx`.
+1. Reduce overhead management of dependencies. For example, you can add [taze](https://github.com/antfu/taze) library.
+1. Providing comfort in utilising efficient (linting, auto-sort, etc) productivity features.
+1. Improving the overall developer experience (DX) with this template.
+
 ## Getting Started
 
-```
+Let's install our dependencies, then pre-setup our `husky` pre-commits:
+
+```bash
 yarn
 yarn prepare
 npx husky add .husky/pre-commit "yarn build"
 npx husky add .husky/pre-commit "yarn prettier"
 ```
 
-Lastly, your file `.husky/pre-commit` should look like below:
+Then, your `.husky/pre-commit` file should look like below:
 
-```
+```bash
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
 yarn build
 yarn prettier
+```
+
+And since we introduced [commitlint](https://commitlint.js.org/guides/getting-started.html), we can enforce "conventional commit" messages with `husky`:
+
+```bash
+echo "export default { extends: ["@commitlint/config-conventional"] };" > commitlint.config.js
 ```
 
 ## Testing with Vitest
