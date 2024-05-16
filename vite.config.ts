@@ -1,4 +1,4 @@
-// import eslintPlugin from "vite-plugin-eslint"; // this is currently not working :( turn this back on when it's fixed
+// import eslint from "vite-plugin-eslint"; // this is currently not working :( turn this back on when it's fixed
 import eslintPlugin from "@nabla/vite-plugin-eslint";
 import path from "path";
 import colors from "picocolors";
@@ -10,7 +10,7 @@ import progress from "vite-plugin-progress";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    // eslintPlugin({ fix: true }),
+    // eslint({ fix: true }),
     eslintPlugin(),
     visualizer() as PluginOption,
     // Uncomment to get cool progress bar - https://github.com/jeddygong/vite-plugin-progress
