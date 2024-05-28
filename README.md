@@ -5,7 +5,7 @@
     <img alt="release" src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square" />
     <img alt="github stars" src="https://img.shields.io/github/stars/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
     <img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/entwurfhaus/vite-vanilla-ts-module/develop.yml?style=flat-square" />
-    <img alt="documentation" src="https://img.shields.io/website?label=documentation&style=flat-square&up_message=online&url=http%3A%2F%2Fvite-vanilla-ts-module.entwurfhaus.com%2F">
+    <img alt="documentation" src="https://img.shields.io/website?label=documentation&style=flat-square&up_message=online&url=https://vite-vanilla-ts-template-extended.vercel.app">
     <img alt="visits" src="https://hits.deltapapa.io/github/entwurfhaus/vite-vanilla-ts-module.svg" />
 </p>
 

@@ -1,6 +1,6 @@
 {
   "name": "vite-vanilla-ts-module",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A starter vanilla-ts (extended) template that began with Vite 3.x, prepared for writing node utility libraries in typescript. This starter is meant to provide rapid node package development and publishing onto npm.",
   "license": "MIT",
   "contributors": [
@@ -43,28 +43,29 @@
   },
   "dependencies": {
     "@microsoft/tsdoc": "^0.14.1",
-    "picocolors": "^1.0.0"
+    "picocolors": "^1.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.3",
-    "@commitlint/config-conventional": "^19.0.3",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@nabla/vite-plugin-eslint": "^2.0.4",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "@types/node": "^20.11.20",
-    "@typescript-eslint/eslint-plugin": "^7.0.2",
-    "@typescript-eslint/parser": "^7.0.2",
-    "@vitest/coverage-v8": "^1.3.1",
-    "@vitest/ui": "^1.3.1",
-    "eslint": "^8.56.0",
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/ui": "^1.6.0",
+    "eslint": "^9.2.0",
     "husky": "^9.0.11",
     "prettier": "3.2.5",
     "rollup-plugin-visualizer": "^5.12.0",
     "tslib": "^2.4.0",
-    "typedoc": "^0.25.8",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4",
-    "vite-plugin-dts": "^3.7.3",
+    "typedoc": "^0.25.13",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-progress": "^0.0.7",
-    "vitest": "^1.3.1"
+    "vitest": "^1.6.0"
   }
 }

@@ -1,24 +1,26 @@
+// import eslint from "vite-plugin-eslint"; // this is currently not working :( turn this back on when it's fixed
+import eslintPlugin from "@nabla/vite-plugin-eslint";
 import path from "path";
 import colors from "picocolors";
 import { visualizer } from "rollup-plugin-visualizer";
 import { type PluginOption, defineConfig } from "vite";
 import dts from "vite-plugin-dts";
-import eslint from "vite-plugin-eslint";
 import progress from "vite-plugin-progress";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    eslint(),
+    // eslint({ fix: true }),
+    eslintPlugin(),
     visualizer() as PluginOption,
-    // https://github.com/jeddygong/vite-plugin-progress
-    progress({
-      format: `Building ${colors.green("[:bar]")} :percent :eta`,
-      total: 100,
-      width: 60,
-      // complete: "=",
-      // incomplete: "",
-    }),
+    // Uncomment to get cool progress bar - https://github.com/jeddygong/vite-plugin-progress
+    // progress({
+    //   format: `Building ${colors.green("[:bar]")} :percent :eta`,
+    //   total: 100,
+    //   width: 60,
+    //   // complete: "=",
+    //   // incomplete: "",
+    // }),
     dts({
       entryRoot: "src",
       tsconfigPath: path.join(__dirname, "tsconfig.json"),
