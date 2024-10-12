@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-    <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
-    <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/@entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/npm/@entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
 </p>
 
 > Update: If you prefer a minimalist vite-vanilla-ts-template, check out https://github.com/entwurfhaus/vite-vanilla-ts-template.
