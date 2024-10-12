@@ -391,6 +391,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@entwurfhaus/vite-vanilla-ts-module@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@entwurfhaus/vite-vanilla-ts-module@workspace:."
+  dependencies:
+    "@commitlint/cli": "npm:^19.5.0"
+    "@commitlint/config-conventional": "npm:^19.5.0"
+    "@microsoft/tsdoc": "npm:^0.14.2"
+    "@nabla/vite-plugin-eslint": "npm:^2.0.4"
+    "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
+    "@types/node": "npm:^20.16.11"
+    "@typescript-eslint/eslint-plugin": "npm:^7.18.0"
+    "@typescript-eslint/parser": "npm:^7.18.0"
+    "@vitest/coverage-v8": "npm:^1.6.0"
+    "@vitest/ui": "npm:^1.6.0"
+    eslint: "npm:^9.12.0"
+    globals: "npm:^15.11.0"
+    husky: "npm:^9.1.6"
+    picocolors: "npm:^1.1.0"
+    prettier: "npm:3.2.5"
+    rollup-plugin-visualizer: "npm:^5.12.0"
+    tslib: "npm:^2.7.0"
+    typedoc: "npm:^0.26.9"
+    typescript: "npm:^5.6.3"
+    vite: "npm:^5.4.8"
+    vite-plugin-dts: "npm:^3.9.1"
+    vite-plugin-eslint: "npm:^1.8.1"
+    vite-plugin-progress: "npm:^0.0.7"
+    vitest: "npm:^1.6.0"
+  languageName: unknown
+  linkType: soft
+
 "@esbuild/aix-ppc64@npm:0.20.2":
   version: 0.20.2
   resolution: "@esbuild/aix-ppc64@npm:0.20.2"
@@ -5570,37 +5601,6 @@ __metadata:
   checksum: 10c0/4663da1a9c3bb81471dc8b33c545c4ea1023531cd77514658d0b29e36d631aad8ab9e47298ddc94b087fdb798694de5ee30ee32f4577cf5c12391df35cd6df71
   languageName: node
   linkType: hard
-
-"vite-vanilla-ts-module@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "vite-vanilla-ts-module@workspace:."
-  dependencies:
-    "@commitlint/cli": "npm:^19.5.0"
-    "@commitlint/config-conventional": "npm:^19.5.0"
-    "@microsoft/tsdoc": "npm:^0.14.2"
-    "@nabla/vite-plugin-eslint": "npm:^2.0.4"
-    "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
-    "@types/node": "npm:^20.16.11"
-    "@typescript-eslint/eslint-plugin": "npm:^7.18.0"
-    "@typescript-eslint/parser": "npm:^7.18.0"
-    "@vitest/coverage-v8": "npm:^1.6.0"
-    "@vitest/ui": "npm:^1.6.0"
-    eslint: "npm:^9.12.0"
-    globals: "npm:^15.11.0"
-    husky: "npm:^9.1.6"
-    picocolors: "npm:^1.1.0"
-    prettier: "npm:3.2.5"
-    rollup-plugin-visualizer: "npm:^5.12.0"
-    tslib: "npm:^2.7.0"
-    typedoc: "npm:^0.26.9"
-    typescript: "npm:^5.6.3"
-    vite: "npm:^5.4.8"
-    vite-plugin-dts: "npm:^3.9.1"
-    vite-plugin-eslint: "npm:^1.8.1"
-    vite-plugin-progress: "npm:^0.0.7"
-    vitest: "npm:^1.6.0"
-  languageName: unknown
-  linkType: soft
 
 "vite@npm:^5.0.0":
   version: 5.2.11
