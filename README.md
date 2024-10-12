@@ -9,15 +9,13 @@
 </p>
 
 <p align="center">
-    <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
-    <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/@entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
+    <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/npm/@entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
 </p>
 
 > Update: If you prefer a minimalist vite-vanilla-ts-template, check out https://github.com/entwurfhaus/vite-vanilla-ts-template.
 
 A starter `vanilla-ts` (extended) template that began with Vite 3.x, prepared for writing `node` utility libraries in `typescript`. This starter is meant to provide rapid `node` package development and publishing onto `npm`.
-
-![yarn build](_screenshots/2022-06-04_12-01-14.jpg "yarn build")
 
 ## What is in this template?
 
@@ -89,8 +87,6 @@ Run `yarn dev` to open `index.html` via `http://localhost:5174`.
 
 It contains some quick links, to the `stats.html` and coverage `index.html` files.
 
-![yarn dev](_screenshots/2022-06-04_12-06-34.jpg "yarn dev")
-
 ## Build your package
 
 Run `yarn build`, and check the `dist` folder for the final build output.
@@ -105,3 +101,5 @@ And when ready to publish to `npm`:
 npm login
 npm publish
 ```
+
+If you need an example of how your NPM package is published, take a look at https://entwurfhaus-demo-react-app.vercel.app/ that have this template installed & used.
