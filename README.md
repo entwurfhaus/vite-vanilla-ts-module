@@ -6,13 +6,14 @@
     <img alt="github stars" src="https://img.shields.io/github/stars/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
     <img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/entwurfhaus/vite-vanilla-ts-module/develop.yml?style=flat-square" />
     <img alt="documentation" src="https://img.shields.io/website?label=documentation&style=flat-square&up_message=online&url=https://vite-vanilla-ts-template-extended.vercel.app">
-    <img alt="visits" src="https://hits.deltapapa.io/github/entwurfhaus/vite-vanilla-ts-module.svg" />
 </p>
 
 <p align="center">
     <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
     <img alt="vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
 </p>
+
+> Update: If you prefer a minimalist vite-vanilla-ts-template, check out https://github.com/entwurfhaus/vite-vanilla-ts-template.
 
 A starter `vanilla-ts` (extended) template that began with Vite 3.x, prepared for writing `node` utility libraries in `typescript`. This starter is meant to provide rapid `node` package development and publishing onto `npm`.
 
@@ -78,9 +79,7 @@ echo "export default { extends: ["@commitlint/config-conventional"] };" > commit
 
 ## Testing with Vitest
 
-Run `yarn test:run` or `yarn test:coverage` to produce code coverage report.
-
-![yarn test:run](_screenshots/2022-06-04_12-03-10.jpg "yarn test:run")
+Run `yarn test` or `yarn test:coverage` to produce code coverage report.
 
 The code coverage report will indicate, if all test cases are 100% covered, flawed logic and so on.
 

@@ -1,11 +1,12 @@
 // import eslint from "vite-plugin-eslint"; // this is currently not working :( turn this back on when it's fixed
 import eslintPlugin from "@nabla/vite-plugin-eslint";
 import path from "path";
-import colors from "picocolors";
+// import colors from "picocolors";
 import { visualizer } from "rollup-plugin-visualizer";
 import { type PluginOption, defineConfig } from "vite";
 import dts from "vite-plugin-dts";
-import progress from "vite-plugin-progress";
+
+// import progress from "vite-plugin-progress";
 
 // https://vitejs.dev/config/
 export default defineConfig({

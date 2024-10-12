@@ -18,6 +18,7 @@ export default defineConfig({
         "_docs",
         "src/main.ts",
         "commitlint.config.js",
+        ".yarn",
       ],
     },
   },
