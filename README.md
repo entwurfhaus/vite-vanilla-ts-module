@@ -5,7 +5,6 @@
     <img alt="release" src="https://img.shields.io/github/v/tag/entwurfhaus/vite-vanilla-ts-module?label=release&style=flat-square" />
     <img alt="github stars" src="https://img.shields.io/github/stars/entwurfhaus/vite-vanilla-ts-module?style=flat-square" />
     <img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/entwurfhaus/vite-vanilla-ts-module/develop.yml?style=flat-square" />
-    <img alt="documentation" src="https://img.shields.io/website?label=documentation&style=flat-square&up_message=online&url=https://vite-vanilla-ts-template-extended.vercel.app">
 </p>
 
 <p align="center">
@@ -102,4 +101,6 @@ npm login
 npm publish
 ```
 
-If you need an example of how your NPM package is published, take a look at https://entwurfhaus-demo-react-app.vercel.app/ that have this template installed & used.
+Also, since `typedoc` is used here - this is an example of the generated `docs` folder, see https://vite-vanilla-ts-template-extended.vercel.app.
+
+If you would like to preview an example of how your NPM package is published, take a look at https://entwurfhaus-demo-react-app.vercel.app/ that have this template installed & used.
